@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Hino Catalog</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  </head>
+  <style>
+    
+    /* Mengubah warna tombol kontrol menjadi hitam */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: black; /* Warna latar belakang hitam */
+        border-radius: 50%; /* Menambahkan sudut melengkung */
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        filter: invert(1); /* Membuat ikon menjadi putih */
+    }
+</style>
+<body>
+ 
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <h1></h1><img src="assets/images/logo-hino.png" style="max-width: 120px;"
+                        alt="Image" height="72" width="72">  
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html" class="active">Beranda</a></li>
+                      <li><a href="properties.html">Produk</a></li>
+                      <li><a href="#"><i class="fa fa-calendar"></i>Buka Jam 8:30 - 16:30</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- <div class="main-banner">
+    <div class="owl-carousel owl-banner">
+      <div class="item item-1">
+        <img src="assets/images/hino-slide01.jpg">
+      </div>
+      <div class="item item-2">
+        <div class="header-text">
+          <img src="assets/images/hino-slide02.jpg">
+        </div>
+      </div>
+      <div class="item item-3">
+        <div class="header-text">
+          <img src="assets/images/hino-slied03.jpg">
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+  
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/hino-slide01.jpg" class="d-block w-100" alt="Slide 1">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/hino-slide02.jpg" class="d-block w-100" alt="Slide 2">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/hino-slied03.jpg" class="d-block w-100" alt="Slide 3">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+  
+    <!-- Controls (Previous & Next) -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <div class="featured section">x
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="left-image">
+            <img src="assets/images/featured-hino.jpeg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="section-heading">
+            <h6>| Produk terbaru</h6>
+            <h2>Hino 300 Series </h2>
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Apa fitur terbaru di Hino terbaru kami?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Salah satunya yang Hino tampilkan di GIICOMVEC adalah <p> Hino 300 - 136 HD memiliki performa mesin, transmisi dan differential yang kuat dan tangguh, baik di jalan datar maupun tanjakan.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="section best-deal">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="section-heading">
+            <h6>Lokasi Dealer</h6>
+            <h2></h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="tabs-content">
+            <div class="row">
+              <div class="nav-wrapper ">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true">Bandung</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="false">Tasikmalaya</button>
+                  </li>
+                </ul>
+              </div>              
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="appartment" role="tabpanel" aria-labelledby="appartment-tab">
+                  <div class="row">
+                    
+                    <div class="col-lg-6">
+                      <img src="assets/images/lokasi-bandung.jpg" alt="" height="450">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>PT Indosentosa Trada</h4>
+                      Hino memulai perjalanannya di Indonesia pada tahun 1967, dimana 150 unit but type BT-51 dikirim pemerintahan jepang sebagai bantuan kepada Indonesia. sejak saat itu,
+                        Hino sebagai bagian pembangunan, terutama dalam proyek nasional seperti irigasi Tadjum di Jawa Tengah (1971), jalan trans sumatra (1973-1974) dan proyek LNG di Lhoksumawe, Aceh (1976-1977)
+                      <div class="icon-button">
+                        <a href="https://wa.me/+6287734852530"><i class="fa-brands fa-whatsapp"></i> Hubungi sekarang</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="villa" role="tabpanel" aria-labelledby="villa-tab">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <img src="assets/images/lokasi-tasik.jpeg" alt="" height="450">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>PT Maya Graha</h4>
+                      <p>Hino memulai perjalanannya di Indonesia pada tahun 1967, dimana 150 unit but type BT-51 dikirim pemerintahan jepang sebagai bantuan kepada Indonesia. sejak saat itu,
+                        Hino sebagai bagian pembangunan, terutama dalam proyek nasional seperti irigasi Tadjum di Jawa Tengah (1971), jalan trans sumatra (1973-1974) dan proyek LNG di Lhoksumawe, Aceh (1976-1977)
+                      </p>
+                      <div class="icon-button">
+                        <a href="https://wa.me/+6287734852530"><i class="fa-brands fa-whatsapp"></i> Hubungi sekarang</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Total Flat Space <span>320 m2</span></li>
+                          <li>Floor number <span>34th</span></li>
+                          <li>Number of rooms <span>6</span></li>
+                          <li>Parking Available <span>Yes</span></li>
+                          <li>Payment Process <span>Bank</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="assets/images/deal-03.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Extra Info About Penthouse</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
+                      <div class="icon-button">
+                        <a href="property-details.html"><i class="fa-brands fa-whatsapp"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="contact section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6>| Hubungi kami</h6>
+            <h1><p style="color:black"> HUBUNGI AGEN KAMI</p></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div id="map">
+            <img src="assets/images/backup-maps.jpg">
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="item phone">
+                <img src="assets/images/phone-icon.png" alt="" style="max-width: 32px;">
+                <h6>0877-3485-2530<br><span>Nomor HP</span></h6>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="item email">
+                <img src="assets/images/email-icon.png" alt="" style="max-width: 32px;">
+                <font size="4"<h6>rafialkausar23@gmail.com<br></font>
+                  <span>Email Bisnis</span></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <form id="contact-form" action="" method="post">
+            <div class="row">
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="name">Nama Lengkap</label>
+                  <input type="name" name="name" id="name" placeholder="Nama Lengkap Anda..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="email">Alamat Email</label>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Alamat Email Anda..." required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="message">Pesan</label>
+                  <textarea name="message" id="message" placeholder="Pesan Anda"></textarea>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="orange-button">Kirim pesan</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-8">
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
